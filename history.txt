@@ -1,0 +1,19 @@
+** 19.Mar.2016 **
+Schematic:
+- Change RF1 to fuse component
+- Added Controller pin headers
+
+PCB Layout:
+- Increase board length from 46mm to 49.5mm
+- Re orientation of components
+RF1, D1, C1, C2, L2 R3 are the main components which were moved for long distance
+- Added Common Plane for Source pin of LNK
+
+-- Missing --
+- Need to revise Terminal Block size and overlapping with D2
+- The LNK layout used till now is not the correct one.
+- May need to increase L2 pad distance a bit
+- May need to decrease the board height by 2mm
+
+NOTE: Till now the design is just a fast draft. You can see that some traces are not drawn in a clean way.
+
