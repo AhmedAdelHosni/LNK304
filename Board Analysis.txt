@@ -11,17 +11,20 @@ http://www.ducksters.com/kidsmath/volume_box.gif
 http://ram-e-shop.com/oscmax/catalog/product_info.php?cPath=38&products_id=555
 NB The values on this documents are after cutting the box and decreasing its size.
 
--- The current Box from RAM Electronics has height equal to 60mm. This height doesn't fit in the old wall box in the room. 58 mm will be OK. 
+-- Height:
+The current Box from RAM Electronics has height equal to 60mm. This height doesn't fit in the old wall box in the room. 58 mm will be OK. 
 Best height shall be 55mm. 55 shall be divided to 2mm thickness + 2mm thicknes + 51 internal space.
 
--- The current Box from RAM Electronics has width equal to 26mm. This shall be decreased to 20mm at least.
+-- Width:
+The current Box from RAM Electronics has width equal to 26mm. This shall be decreased to 20mm at least.
 Currently the max height is for the Relay, which is 10 mm + 1 board thickness. But this height can increase iff the Controller + nrf module will be added on top of the AC to DC converter. Probably this will be the only path to fit all board in a small box, as the length of the box shall not exceed 68 mm. This leaves 64mm only will the total dimensions of converter + 3 relays (as shown in the Board Dimensions section) is equal to 57.
 
 The design is not easy. The calculations are as follows:
 1 mm board thickness (converter) + 12 (male + female) sockets + 1 board thickness (controller ) = 14 mm +
 5 mm nrf height above the controller = 19 mm. This may actually increase. Need to be manufactured to be accurate.
 
--- The current Box from RAM Electronics has length equal to 68mm. This will fit in the old wall box in the room.
+-- Length:
+The current Box from RAM Electronics has length equal to 68mm. This will fit in the old wall box in the room.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
