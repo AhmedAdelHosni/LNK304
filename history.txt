@@ -1,3 +1,19 @@
+** 21.Mar.2016 **
+Schematic:
+- Added pin headers for 9v output which will be used by the relays
+- Added extra ground pin to CONTR component
+
+PCB Layout:
+- Added pin headers for 9v output which will be used by the relays
+- Added extra ground pin to CONTR component
+- Added two 1mm holes
+- Added Ground plane
+
+Missing:
+- Same issues 
+- Add Creepage between C1 and C2 pads
+- Smash right side components and re organise the components names on the silk screen
+
 ** 19.Mar.2016 **
 Schematic:
 - Change RF1 to fuse component

@@ -14771,7 +14771,7 @@ Wickmann</description>
 <part name="D1" library="adafruit" deviceset="1N4004" device="" value="1N4007"/>
 <part name="D2" library="adafruit" deviceset="1N4004" device="" value="1N4007"/>
 <part name="C1" library="adafruit" deviceset="CPOL-US" device="E5-10.5" value="4.7 uF"/>
-<part name="C2" library="adafruit" deviceset="CPOL-US" device="E5-10.5" value="4.7 uF 400 V"/>
+<part name="C2" library="adafruit" deviceset="CPOL-US" device="E5-10.5" value="4.7 uF"/>
 <part name="L1" library="inductor-neosid" deviceset="BS" device="11"/>
 <part name="C4" library="adafruit" deviceset="C-US" device="C0603" value="10 uF"/>
 <part name="C3" library="adafruit" deviceset="C-US" device="C0603" value="0.1 uF"/>
@@ -14789,6 +14789,7 @@ Wickmann</description>
 <part name="AC" library="adafruit" deviceset="1X2" device="-3.5MM"/>
 <part name="AC2" library="adafruit" deviceset="PINHD-1X1" device=""/>
 <part name="CONTR" library="adafruit" deviceset="PINHD-1X3" device=""/>
+<part name="9VOUT" library="adafruit" deviceset="PINHD-1X3" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -14817,6 +14818,7 @@ Wickmann</description>
 <instance part="AC" gate="G$1" x="-12.7" y="55.88" rot="R180"/>
 <instance part="AC2" gate="G$1" x="-15.24" y="45.72" rot="R180"/>
 <instance part="CONTR" gate="A" x="200.66" y="50.8"/>
+<instance part="9VOUT" gate="A" x="149.86" y="71.12"/>
 </instances>
 <busses>
 </busses>
@@ -14916,8 +14918,11 @@ Wickmann</description>
 <wire x1="53.34" y1="40.64" x2="53.34" y2="33.02" width="0.1524" layer="91"/>
 <pinref part="CONTR" gate="A" pin="2"/>
 <wire x1="198.12" y1="50.8" x2="190.5" y2="50.8" width="0.1524" layer="91"/>
-<wire x1="190.5" y1="50.8" x2="190.5" y2="40.64" width="0.1524" layer="91"/>
+<wire x1="190.5" y1="50.8" x2="190.5" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="190.5" y1="48.26" x2="190.5" y2="40.64" width="0.1524" layer="91"/>
 <wire x1="190.5" y1="40.64" x2="185.42" y2="40.64" width="0.1524" layer="91"/>
+<pinref part="CONTR" gate="A" pin="3"/>
+<wire x1="198.12" y1="48.26" x2="190.5" y2="48.26" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$4" class="0">
@@ -14929,7 +14934,16 @@ Wickmann</description>
 <pinref part="D4" gate="1" pin="A"/>
 <wire x1="132.08" y1="55.88" x2="132.08" y2="68.58" width="0.1524" layer="91"/>
 <pinref part="R3" gate="G$1" pin="1"/>
-<wire x1="137.16" y1="55.88" x2="132.08" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="132.08" y1="55.88" x2="137.16" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="137.16" y1="55.88" x2="137.16" y2="68.58" width="0.1524" layer="91"/>
+<pinref part="9VOUT" gate="A" pin="1"/>
+<wire x1="137.16" y1="68.58" x2="137.16" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="137.16" y1="71.12" x2="137.16" y2="73.66" width="0.1524" layer="91"/>
+<wire x1="137.16" y1="73.66" x2="147.32" y2="73.66" width="0.1524" layer="91"/>
+<pinref part="9VOUT" gate="A" pin="2"/>
+<wire x1="137.16" y1="71.12" x2="147.32" y2="71.12" width="0.1524" layer="91"/>
+<pinref part="9VOUT" gate="A" pin="3"/>
+<wire x1="137.16" y1="68.58" x2="147.32" y2="68.58" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$8" class="0">
