@@ -1,4 +1,27 @@
 ** 26.Mar.2016 **
+Schematic:
+- Added a 1M 1/2Watt beelding resistor between hot and neutral
+- Added Varistor VR1
+
+PCB Layout:
+- Change board height to 49.5mm 
+- Change trace width to 40mil
+- Added a 1M 1/4Watt beelding resistor between hot and neutral
+- Change layout of D2 to be shorter so that AC Terminal Block can fit
+- Added Varistor VR1
+
+-- Missing --
+- Need to add hot and neutral pins for AC plug concept
+- Need to revise Terminal Block size and overlapping with D2
+- May need to increase L2 pad distance a bit
+- May need to decrease the board height by 2mm
+- Add Creepage between C1 and C2 pads
+- Revise the two holes diameter and availability of screws
+
+-- What can be changed --
+- Hot and Neutral pins can be in one signale TBlock02 not 03
+
+** 26.Mar.2016 **
 - Checked in new file userdefined.lbr
 - Created new device LNK30X
 - The device has Symbol name LNK30X
