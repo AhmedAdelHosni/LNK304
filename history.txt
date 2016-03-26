@@ -1,3 +1,25 @@
+** 26.Mar.2016 **
+- Checked in new file userdefined.lbr
+- Created new device LNK30X
+- The device has Symbol name LNK30X
+- The device has Package name SO08C
+
+Schematic:
+- Added the new package LNK30X and rename component to LNK304
+
+PCB Layout:
+- Route the new package LNK30X
+- Smash right side components and re organise the components names on the silk screen
+- Added two holes
+
+-- Missing --
+- Need to add hot and neutral pins for AC plug concept
+- Need to revise Terminal Block size and overlapping with D2
+- May need to increase L2 pad distance a bit
+- May need to decrease the board height by 2mm
+- Add Creepage between C1 and C2 pads
+- Revise the two holes diameter and availability of screws
+
 ** 21.Mar.2016 **
 Schematic:
 - Added pin headers for 9v output which will be used by the relays
