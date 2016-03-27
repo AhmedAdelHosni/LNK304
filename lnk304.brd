@@ -2846,17 +2846,17 @@ design rules under a new name.</description>
 </element>
 <element name="C2" library="adafruit" package="E5-10,5" value="4.7 uF" x="22.948" y="6.011" smashed="yes" rot="R270">
 <attribute name="NAME" x="26.6832" y="2.5404" size="1.27" layer="25" ratio="10" rot="R270"/>
-<attribute name="VALUE" x="19.7222" y="9.1352" size="1.27" layer="27" ratio="10" rot="R270"/>
+<attribute name="VALUE" x="19.9594375" y="8.62034375" size="1.27" layer="27" ratio="10" rot="R270"/>
 </element>
 <element name="D1" library="adafruit" package="DO41-10" value="1N4007" x="15.303" y="17.57" smashed="yes" rot="R90">
 <attribute name="NAME" x="18.0403" y="14.6166" size="1.27" layer="25" ratio="10" rot="R90"/>
 <attribute name="VALUE" x="18.097" y="17.625" size="1.27" layer="27" ratio="10" rot="R90"/>
 </element>
-<element name="D2" library="adafruit" package="DO41-7" value="1N4007" x="2.418" y="6.281" smashed="yes" rot="R270">
-<attribute name="NAME" x="3.675" y="3.859" size="1.27" layer="25" ratio="10" rot="R270"/>
-<attribute name="VALUE" x="4.015" y="13.162" size="1.27" layer="27" ratio="10" rot="R270"/>
+<element name="D2" library="adafruit" package="DO41-7" value="1N4007" x="3.841415625" y="5.824815625" smashed="yes" rot="R270">
+<attribute name="NAME" x="5.098415625" y="3.402815625" size="1.27" layer="25" ratio="10" rot="R270"/>
+<attribute name="VALUE" x="5.438415625" y="12.705815625" size="1.27" layer="27" ratio="10" rot="R270"/>
 </element>
-<element name="L1" library="inductor-neosid" package="BS11" value="" x="23.288" y="17.883" smashed="yes">
+<element name="L1" library="inductor-neosid" package="BS11" value="1000 uH" x="23.288" y="17.883" smashed="yes">
 <attribute name="OC_NEWARK" value="unknown" x="23.288" y="17.883" size="1.778" layer="27" display="off"/>
 <attribute name="OC_FARNELL" value="unknown" x="23.288" y="17.883" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="" x="23.288" y="17.883" size="1.778" layer="27" display="off"/>
@@ -2870,13 +2870,14 @@ design rules under a new name.</description>
 <attribute name="MF" value="" x="12.176" y="17.835" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="OC_NEWARK" value="unknown" x="12.176" y="17.835" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="11.578" y="19.416" size="1.27" layer="25" ratio="10" rot="R270"/>
-<attribute name="VALUE" x="9.6692" y="22.913" size="1.27" layer="27" ratio="10" rot="R270"/>
+<attribute name="VALUE" x="9.431709375" y="23.38823125" size="1.27" layer="27" ratio="10" rot="R270"/>
 </element>
-<element name="C4" library="adafruit" package="C0603" value="" x="39.617" y="15.056" smashed="yes" rot="R180">
+<element name="C4" library="adafruit" package="C0603" value="10 uF" x="39.617" y="15.056" smashed="yes" rot="R180">
 <attribute name="NAME" x="40.546" y="17.42" size="1.27" layer="25" rot="R180"/>
-<attribute name="VALUE" x="40.506" y="17.088" size="1.27" layer="27" rot="R180"/>
 </element>
-<element name="C3" library="adafruit" package="C0603" value="" x="30.974" y="21.157"/>
+<element name="C3" library="adafruit" package="C0603" value="0.1 uF" x="30.974" y="21.157" smashed="yes">
+<attribute name="NAME" x="30.085" y="21.919" size="1.27" layer="25"/>
+</element>
 <element name="D3" library="adafruit" package="DO41-10" value="SBYV26C" x="30.489" y="6.424" smashed="yes" rot="R270">
 <attribute name="NAME" x="32.275" y="3.11" size="1.27" layer="25" ratio="10" rot="R270"/>
 <attribute name="VALUE" x="32.22" y="11.773" size="1.27" layer="27" ratio="10" rot="R270"/>
@@ -2885,31 +2886,30 @@ design rules under a new name.</description>
 <attribute name="NAME" x="44.498" y="15.586" size="1.27" layer="25" ratio="10" rot="R270"/>
 <attribute name="VALUE" x="44.635" y="23.381" size="1.27" layer="27" ratio="10" rot="R270"/>
 </element>
-<element name="C5" library="adafruit" package="E2-4" value="" x="36.652" y="2.338" smashed="yes" rot="R270">
+<element name="C5" library="adafruit" package="E2-4" value="100 uF" x="36.652" y="2.338" smashed="yes" rot="R270">
 <attribute name="NAME" x="34.941" y="3.239" size="1.27" layer="25" ratio="10" rot="R90"/>
-<attribute name="VALUE" x="34.493" y="0.179" size="1.27" layer="27" ratio="10" rot="R270"/>
 </element>
-<element name="L2" library="rcl" package="L5650M" value="" x="36.719" y="9.213" smashed="yes" rot="R270">
+<element name="L2" library="rcl" package="L5650M" value="680 uH" x="36.719" y="9.213" smashed="yes" rot="R270">
 <attribute name="NAME" x="35.925" y="8.696" size="1.27" layer="25"/>
-<attribute name="VALUE" x="32.274" y="11.118" size="1.27" layer="27" rot="R270"/>
 </element>
-<element name="R1" library="adafruit" package="R0603" value="" x="37.846" y="22.717" smashed="yes">
+<element name="R1" library="adafruit" package="R0603" value="9.1k" x="37.846" y="22.717" smashed="yes">
 <attribute name="NAME" x="36.928" y="20.391" size="1.27" layer="25"/>
-<attribute name="VALUE" x="36.957" y="20.685" size="1.27" layer="27"/>
 </element>
-<element name="R2" library="adafruit" package="R0603" value="" x="34.86" y="21.851" rot="R90"/>
+<element name="R2" library="adafruit" package="R0603" value="2k" x="34.86" y="21.851" smashed="yes" rot="R90">
+<attribute name="NAME" x="33.971" y="20.962" size="1.27" layer="25" rot="R90"/>
+</element>
 <element name="IC2" library="linear" package="SOT23" value="" x="44.909" y="5.873" smashed="yes">
 <attribute name="NAME" x="46.49" y="5.22" size="1.27" layer="25"/>
 <attribute name="VALUE" x="43.004" y="2.698" size="1.27" layer="27"/>
 </element>
-<element name="R3" library="adafruit" package="R1206" value="" x="45.039" y="9.325"/>
-<element name="C6" library="adafruit" package="C0603" value="" x="41.324" y="2.148" smashed="yes" rot="R270">
-<attribute name="NAME" x="39.046" y="3.077" size="1.27" layer="25" rot="R270"/>
-<attribute name="VALUE" x="39.292" y="3.037" size="1.27" layer="27" rot="R270"/>
+<element name="R3" library="adafruit" package="R1206" value="10" x="45.039" y="9.325" smashed="yes">
+<attribute name="NAME" x="43.642" y="10.468" size="1.27" layer="25"/>
 </element>
-<element name="C7" library="adafruit" package="C0603" value="" x="44.858" y="1.596" smashed="yes" rot="R180">
+<element name="C6" library="adafruit" package="C0603" value="1 uF" x="41.324" y="2.148" smashed="yes" rot="R270">
+<attribute name="NAME" x="42.011959375" y="2.856021875" size="1.27" layer="25" rot="R270"/>
+</element>
+<element name="C7" library="adafruit" package="C0603" value="1 uF" x="44.858" y="1.596" smashed="yes" rot="R180">
 <attribute name="NAME" x="46.722" y="2.744" size="1.27" layer="25" rot="R270"/>
-<attribute name="VALUE" x="45.747" y="3.628" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="AC" library="adafruit" package="1X2-3.5MM" value="1X2-3.5MM" x="3.788" y="20.932" smashed="yes" rot="R270">
 <attribute name="NAME" x="6.4" y="19.8695" size="1.27" layer="25" rot="R90"/>
@@ -2975,7 +2975,7 @@ design rules under a new name.</description>
 <contactref element="AC2" pad="1"/>
 <contactref element="VR1" pad="2"/>
 <wire x1="3.854" y1="15.126" x2="8.8346" y2="12.7431" width="0" layer="19" extent="1-1"/>
-<wire x1="2.418" y1="10.281" x2="3.854" y2="15.126" width="0" layer="19" extent="1-1"/>
+<wire x1="3.841415625" y1="9.824815625" x2="3.854" y2="15.126" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$5">
 <contactref element="R1" pad="1"/>
@@ -3074,9 +3074,12 @@ design rules under a new name.</description>
 <wire x1="46.479" y1="7.886" x2="46.479" y2="9.307" width="0.4064" layer="1"/>
 <wire x1="46.479" y1="9.307" x2="46.461" y2="9.325" width="0.4064" layer="1"/>
 <wire x1="41.324" y1="2.998" x2="41.324" y2="4.499" width="0.4064" layer="1"/>
-<wire x1="41.324" y1="4.499" x2="43.819" y2="6.994" width="0.4064" layer="1"/>
 <wire x1="43.819" y1="6.994" x2="44.888" y2="6.994" width="0.4064" layer="1"/>
 <wire x1="44.888" y1="6.994" x2="44.909" y2="6.973" width="0.4064" layer="1"/>
+<wire x1="41.324" y1="4.499" x2="41.8631625" y2="4.499" width="0.4064" layer="1"/>
+<wire x1="41.8631625" y1="4.499" x2="42.685715625" y2="5.321553125" width="0.4064" layer="1"/>
+<wire x1="42.685715625" y1="5.321553125" x2="42.685715625" y2="5.860715625" width="0.4064" layer="1"/>
+<wire x1="42.685715625" y1="5.860715625" x2="43.819" y2="6.994" width="0.4064" layer="1"/>
 </signal>
 <signal name="N$14">
 <contactref element="C7" pad="1"/>
@@ -3126,6 +3129,7 @@ design rules under a new name.</description>
 <via x="17.7579" y="3.3561" extent="1-16" drill="0.6" diameter="0.8128"/>
 <wire x1="17.7837" y1="3.3819" x2="17.7579" y2="3.3561" width="0.6096" layer="1"/>
 <wire x1="17.7837" y1="3.3819" x2="17.7837" y2="10.6128" width="1.016" layer="1"/>
+<wire x1="30.489" y1="1.344" x2="36.652" y2="1.322" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$9">
 <contactref element="AC" pad="2"/>

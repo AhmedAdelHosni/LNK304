@@ -1,3 +1,19 @@
+** 27.Mar.2016 **
+
+Schematic:
+- Added passive componets' values which were removed by mistake 
+
+PCB Layout:
+- Smash passive components and remove passive components' values
+
+-- Missing --
+- Need to add hot and neutral pins for AC plug concept
+- Need to revise Terminal Block size and overlapping with D2
+- May need to increase L2 pad distance a bit
+- May need to decrease the board height by 2mm
+- Add Creepage between C1 and C2 pads
+- Revise the two holes diameter and availability of screws
+
 ** 26.Mar.2016 **
 Schematic:
 - Added a 1M 1/2Watt beelding resistor between hot and neutral

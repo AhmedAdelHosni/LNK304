@@ -19670,19 +19670,19 @@ Source: www.epcos.com .. 01430148.pdf</description>
 <part name="D2" library="adafruit" deviceset="SCHOTTKY-DIODE" device="DO41-7" value="1N4007"/>
 <part name="C1" library="adafruit" deviceset="CPOL-US" device="E5-10.5" value="4.7 uF"/>
 <part name="C2" library="adafruit" deviceset="CPOL-US" device="E5-10.5" value="4.7 uF"/>
-<part name="L1" library="inductor-neosid" deviceset="BS" device="11"/>
-<part name="C4" library="adafruit" deviceset="C-US" device="C0603"/>
-<part name="C3" library="adafruit" deviceset="C-US" device="C0603"/>
+<part name="L1" library="inductor-neosid" deviceset="BS" device="11" value="1000 uH"/>
+<part name="C4" library="adafruit" deviceset="C-US" device="C0603" value="10 uF"/>
+<part name="C3" library="adafruit" deviceset="C-US" device="C0603" value="0.1 uF"/>
 <part name="D3" library="adafruit" deviceset="1N4004" device="" value="SBYV26C"/>
 <part name="D4" library="adafruit" deviceset="1N4004" device="" value="1N4005"/>
-<part name="C5" library="adafruit" deviceset="CPOL-US" device="E2-4"/>
-<part name="L2" library="rcl" deviceset="L-US" device="L5650M"/>
-<part name="R1" library="adafruit" deviceset="R-US_" device="R0603"/>
-<part name="R2" library="adafruit" deviceset="R-US_" device="R0603"/>
+<part name="C5" library="adafruit" deviceset="CPOL-US" device="E2-4" value="100 uF"/>
+<part name="L2" library="rcl" deviceset="L-US" device="L5650M" value="680 uH"/>
+<part name="R1" library="adafruit" deviceset="R-US_" device="R0603" value="9.1k"/>
+<part name="R2" library="adafruit" deviceset="R-US_" device="R0603" value="2k"/>
 <part name="IC2" library="linear" deviceset="MCP1703" device="CB" value=""/>
-<part name="R3" library="adafruit" deviceset="R-US_" device="R1206"/>
-<part name="C6" library="adafruit" deviceset="C-US" device="C0603"/>
-<part name="C7" library="adafruit" deviceset="C-US" device="C0603"/>
+<part name="R3" library="adafruit" deviceset="R-US_" device="R1206" value="10"/>
+<part name="C6" library="adafruit" deviceset="C-US" device="C0603" value="1 uF"/>
+<part name="C7" library="adafruit" deviceset="C-US" device="C0603" value="1 uF"/>
 <part name="AC" library="adafruit" deviceset="1X2" device="-3.5MM"/>
 <part name="AC2" library="adafruit" deviceset="PINHD-1X1" device=""/>
 <part name="CONTR" library="adafruit" deviceset="PINHD-1X3" device=""/>
