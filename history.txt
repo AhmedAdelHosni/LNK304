@@ -1,5 +1,17 @@
-** 27.Mar.2016 **
+** 8.Apr.2016 **
+Created new devices in the library
 
+Schematic:
+- Created new library for AC plug
+- Added hot and neutral pins for AC plug concept
+
+PCB Layout:
+- Revised Terminal Block size and overlapping with D2
+- Probably won't need to decrease the board height by 2mm
+- Neglect creepage between C1 and C2 pads at the moment
+- Increased L2 pad distance a bit by creating a new library ELL-6UH681M
+
+** 27.Mar.2016 **
 Schematic:
 - Added passive componets' values which were removed by mistake 
 
