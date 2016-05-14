@@ -1,0 +1,108 @@
+** 8.Apr.2016 **
+Created new devices in the library
+
+Schematic:
+- Created new library for AC plug
+- Added hot and neutral pins for AC plug concept
+
+PCB Layout:
+- Revised Terminal Block size and overlapping with D2
+- Probably won't need to decrease the board height by 2mm
+- Neglect creepage between C1 and C2 pads at the moment
+- Increased L2 pad distance a bit by creating a new library ELL-6UH681M
+
+** 27.Mar.2016 **
+Schematic:
+- Added passive componets' values which were removed by mistake 
+
+PCB Layout:
+- Smash passive components and remove passive components' values
+
+-- Missing --
+- Need to add hot and neutral pins for AC plug concept
+- Need to revise Terminal Block size and overlapping with D2
+- May need to increase L2 pad distance a bit
+- May need to decrease the board height by 2mm
+- Add Creepage between C1 and C2 pads
+- Revise the two holes diameter and availability of screws
+
+** 26.Mar.2016 **
+Schematic:
+- Added a 1M 1/2Watt beelding resistor between hot and neutral
+- Added Varistor VR1
+
+PCB Layout:
+- Change board height to 49.5mm 
+- Change trace width to 40mil
+- Added a 1M 1/4Watt beelding resistor between hot and neutral
+- Change layout of D2 to be shorter so that AC Terminal Block can fit
+- Added Varistor VR1
+
+-- Missing --
+- Need to add hot and neutral pins for AC plug concept
+- Need to revise Terminal Block size and overlapping with D2
+- May need to increase L2 pad distance a bit
+- May need to decrease the board height by 2mm
+- Add Creepage between C1 and C2 pads
+- Revise the two holes diameter and availability of screws
+
+-- What can be changed --
+- Hot and Neutral pins can be in one signale TBlock02 not 03
+
+** 26.Mar.2016 **
+- Checked in new file userdefined.lbr
+- Created new device LNK30X
+- The device has Symbol name LNK30X
+- The device has Package name SO08C
+
+Schematic:
+- Added the new package LNK30X and rename component to LNK304
+
+PCB Layout:
+- Route the new package LNK30X
+- Smash right side components and re organise the components names on the silk screen
+- Added two holes
+
+-- Missing --
+- Need to add hot and neutral pins for AC plug concept
+- Need to revise Terminal Block size and overlapping with D2
+- May need to increase L2 pad distance a bit
+- May need to decrease the board height by 2mm
+- Add Creepage between C1 and C2 pads
+- Revise the two holes diameter and availability of screws
+
+** 21.Mar.2016 **
+Schematic:
+- Added pin headers for 9v output which will be used by the relays
+- Added extra ground pin to CONTR component
+
+PCB Layout:
+- Added pin headers for 9v output which will be used by the relays
+- Added extra ground pin to CONTR component
+- Added two 1mm holes
+- Added Ground plane
+
+Missing:
+- Same issues 
+- Add Creepage between C1 and C2 pads
+- Smash right side components and re organise the components names on the silk screen
+
+** 19.Mar.2016 **
+Schematic:
+- Change RF1 to fuse component
+- Added Controller pin headers
+
+PCB Layout:
+- Increase board length from 46mm to 49.5mm
+- Re orientation of components
+RF1, D1, C1, C2, L2 R3 are the main components which were moved for long distance
+- Added Common Plane for Source pin of LNK
+
+-- Missing --
+- Need to revise Terminal Block size and overlapping with D2
+- The LNK layout used till now is not the correct one.
+- May need to increase L2 pad distance a bit
+- May need to decrease the board height by 2mm
+
+NOTE: Till now the design is just a fast draft. You can see that some traces are not drawn in a clean way.
+
